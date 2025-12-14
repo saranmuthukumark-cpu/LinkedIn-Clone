@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="src/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8"
+      id="favicon-svg" />
+  </head>
+  <body>
+    <!-- nav section -->
+
+    <nav
+      class="flex justify-between items-center px-50 p-1 bg-white border-b border-gray-300 cursor-pointer">
+      <div class="flex items-center">
+        <a href="#"
+          ><img
+            src="public/assets/linkedin-svgrepo-com.svg"
+            class="h-8.5 w-8.5"
+            alt="linked in logo"
+        /></a>
+
+        <div
+          class="border border-gray-400 mr-4 ml-2.5 p-1 rounded-2xl flex items-center pr-20">
+          <a href="">
+            <i
+              class="fa-solid fa-magnifying-glass fa-sm pr-2 mx-2"
+              style="color: #3f3f3f"></i></a
+          ><input
+            type="search"
+            placeholder="Search"
+            class="text-black text-sm outline-0 justify-center" />
+        </div>
+      </div>
+
+      <!-- nav left -->
+
+      <nav class="">
+        <div class="flex space-x-8 items-center">
+          <div class="flex flex-col items-center ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="black"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false">
+            <path
+              d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
+          </svg>
+          <p class="text-xs text-black text-center">Home</p>
+          </div>
+          <div class="flex flex-col items-center ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              data-supported-dps="24x24"
+              fill="gray"
+              class="mercado-match"
+              width="24"
+              height="24"
+              focusable="false">
+              <path
+                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"></path>
+            </svg>
+          <p  class="text-xs " >My Network</p>  
+          </div>
+
+          <div class="flex flex-col items-center ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              data-supported-dps="24x24"
+              fill="gray"
+              class="mercado-match"
+              width="24"
+              height="24"
+              focusable="false">
+              <path
+                d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"></path>
+            </svg>
+            <p class="text-xs" >Jobs</p>
+          </div>
+
+          <div class="flex flex-col items-center " >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              data-supported-dps="24x24"
+              fill="gray"
+              class="mercado-match"
+              width="24"
+              height="24"
+              focusable="false">
+              <path
+                d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"></path>
+            </svg>
+            <p  class="text-xs" >Messaging</p>
+          </div>
+
+          <div class="flex flex-col items-center " >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              data-supported-dps="24x24"
+              fill="gray"
+              class="mercado-match"
+              width="24"
+              height="24"
+              focusable="false">
+              <path
+                d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"></path>
+            </svg>
+            <p class="text-xs" >Notifications</p>
+          </div>
+
+          <div class="flex flex-col items-center border-r border-gray-400 pr-2 ">
+            <img
+              src="public/assets/saran img.jpg"
+              alt="saran profile pic"
+              class="h-6 w-6 rounded-full" />
+            <p class="text-xs"  >Me   <i
+              class="fa-solid fa-sort-down fa-2xs items-center"
+              style="color: #9196a1"></i></p>
+            
+          </div>
+  
+          
+            <div class="flex flex-col items-center ">
+            
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="gray"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false">
+                <path
+                  d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"></path>
+              </svg>
+                <p class="text-xs" >For Business   <i
+              class="fa-solid fa-sort-down fa-2xs items-center"
+              style="color: #9196a1"></i></p>
+            </div>
+
+            <div class="flex flex-col items-center ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="gray"
+                width="24"
+                height="24"
+                focusable="false">
+                <circle
+                  cx="12"
+                  cy="4"
+                  r="2"
+                  style="isolation: isolate"
+                  opacity=".75"></circle>
+                <path
+                  d="M21 10H3a1 1 0 00-1 1v10a1 1 0 001 1h18a1 1 0 001-1V11a1 1 0 00-1-1zm-5 9H8v-2h8v2zm2-4H6v-2h12v2z"></path>
+                <g opacity=".6">
+                  <path
+                    d="M9.57 5.75l-2.41 4.83 1.68.84 2.28-4.57a3 3 0 01-1.55-1.1zM14.43 5.75a3 3 0 01-1.55 1.1l2.28 4.57 1.68-.84z"
+                    style="isolation: isolate"
+                    opacity=".55"></path>
+                </g>
+              </svg>
+              <p class="text-xs" >Hire with AI</p>
+            </div>
+          
+        </div>
+      </nav>
+    </nav>
+
+    <!-- hero section -->
+
+          <!-- left section -->
+
+<section class="">
+<div class="flex  pl-60 pt-6 rounded-t-lg ">
+
+<div class=" rounded-lg flex flex-col w-60  ">
+  <div class="flex flex-col   ">
+    <img src="public/assets/saran-bg-banner.jpg" class="h-15 rounded-t-lg" alt="banner-img">
+    <div class="absolute mt-7 ml-4"><img src="public/assets/saran img.jpg" alt="saran logo" class="rounded-full h-18 border-2 border-gray-100"></div>
+  </div> 
+
+  <div class="pt-10 px-4 bg-white border border-t-0 border-gray-300 rounded-b-lg">
+<h1 class="text-xl font-medium"><a href="">Saran Muthuku...</a> </h1>
+<p class="text-xs pt-1.5"><a href="">Aspiring MERN Stack Developer | <br>Learning & Building Projects | Ope...</a></p>
+<p class="text-xs pt-1.5 text-gray-500"><a href="">Kumarapalayam, Tamil Nadu</a></p>
+
+<div class="">
+  
+
+<p class="  text-xs font-semibold pt-1.5 text-black " >
+  <a href="" class="flex "><img src="public/assets/cyberdude_networks_logo.jpg" alt="cyberdude_networks_logo" class="h-5 w-5 rounded-md mr-2 mb-7 " </a>CyberDude Networks Private <br>
+   Limited</p>
+  </div>
+</div>   
+
+<div>
+
+<div class=" mt-2 pl-4 py-4 bg-white border  border-gray-300 rounded-lg w-60 ">
+
+<h1 class="text-xs font-medium pb-3 hover:underline">Profile viewers <span class="text-blue-400 pl-27">99</span></h1>
+<h1 class="text-xs font-medium hover:underline">Post impressions <span class="text-blue-400 pl-24">410</span></h1>
+
+</div>
+
+
+
+<div class=" mt-2 pl-4 py-4 bg-white border  border-gray-300 rounded-lg w-60 ">
+
+<h1 class="text-xs text-gray-600 pb-3 ">Achieve your career goals with <br> Premium</h1>
+<h1 class=" flex text-xs font-medium "><img src="public/assets/icon.png" alt="icon" class="flex w-4 h-4 mr-2"> <span class="text-black">Try for &#8377;0</span></h1>
+
+</div>
+
+
+<div class=" mt-2 pl-4 py-4 bg-white border  border-gray-300 rounded-lg w-60 ">
+
+<h1 class="text-xs font-medium pb-4 hover:underline "><i class="fa-solid fa-bookmark fa-md pr-5"></i> Saved items </h1>
+<h1 class="text-xs font-medium pb-4 hover:underline "><i class="fa-solid fa-people-group fa-md pr-5"></i>Groups</h1>
+<h1 class="text-xs font-medium pb-4 hover:underline"><i class="fa-solid fa-newspaper fa-md pr-5"></i>Newsletters </h1>
+<h1 class="text-xs font-medium pb-2 hover:underline"><i class="fa-solid fa-calendar fa-md pr-5"></i>Events</h1>
+
+</div>
+</div>
+</div>
+
+
+
+
+<!-- hero center -->
+
+
+
+<div class="">
+  <div class="mx-4 bg-white rounded-lg border border-gray-300">
+
+<div class="flex py-3 px-4 ">
+  <img src="public/assets/saran img.jpg" alt="saran img" class="h-12 w-12 rounded-full">
+
+<button class="flex text-gray-700 pr-95 p-3 ml-2 text-center border border-gray-400 rounded-4xl"> <span class="font-semibold text-md">Start a post</span>  </button>
+
+</div>
+
+<div class="flex gap-20 py-3">
+<a href="#" class="flex "><svg height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#5f9b41" stroke="#5f9b41"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#5f9b41;" d="M460.8,68.452H51.2c-28.16,0-51.2,23.04-51.2,51.2v272.696c0,28.16,23.04,51.2,51.2,51.2h409.6 c28.16,0,51.2-23.04,51.2-51.2V119.652C512,91.492,488.96,68.452,460.8,68.452z M188.44,359.98V151.108l195.624,104.44 L188.44,359.98z"></path> <polygon style="fill:#FFFFFF;" points="188.44,359.98 384.056,255.548 188.44,151.108 "></polygon> </g></svg> <span class="pl-3 font-medium text-gray-700 text-sm">Video</span></a>
+
+
+<a href="#" class="flex"><svg fill="#378FE9" height="22px" width="28px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M184.765,86.883c-27.619,0-50.087,22.468-50.087,50.087s22.468,50.087,50.087,50.087 c27.619,0,50.087-22.468,50.087-50.087C234.852,109.351,212.384,86.883,184.765,86.883z"></path> </g> </g> <g> <g> <path d="M461.913,0H50.087C22.468,0,0,22.468,0,50.087v411.826C0,489.532,22.468,512,50.087,512h411.826 C489.532,512,512,489.532,512,461.913V50.087C512,22.468,489.532,0,461.913,0z M445.217,293.609l-88.368-88.37 c-6.521-6.52-17.091-6.52-23.613,0L228.174,310.304l-60.544-54.979c-6.52-6.52-17.089-6.52-23.609,0L66.783,327V83.478 c0-9.228,7.467-16.696,16.696-16.696h345.043c9.228,0,16.696,7.467,16.696,16.696V293.609z"></path> </g> </g> </g></svg><span class="pl-3 font-medium text-gray-700 text-sm">Photo</span></a>
+
+<a href="" class="flex"><svg version="1.1" id="_x32_" class="h-4.5 w-4.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#E06847"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#E06847;} </style> <g> <rect x="106.667" y="106.667" class="st0" width="298.666" height="106.666"></rect> <path class="st0" d="M0,0v512h512V0H0z M458.667,458.667H53.333V53.333h405.334V458.667z"></path> <rect x="256" y="277.333" class="st0" width="149.333" height="32"></rect> <rect x="256" y="362.667" class="st0" width="149.333" height="32"></rect> <rect x="106.667" y="277.333" class="st0" width="106.666" height="117.334"></rect> </g> </g></svg><span class="pl-3 font-medium text-gray-700 text-sm ">Write article</span></a>
+
+</div>
+</div> 
+
+
+
+
+<div class="flex items-center space-x-2 my-2 ">
+        <hr class="border-gray-400  shadow-2xs w-[80%] ml-4">
+        <p class="text-xs text-gray-500 text-center flex items-center gap-2">Sort by:  <span class="font-medium text-gray-800 text-center flex items-center">Top 
+          <span class=" text-[18px]  ml-0.5"></span> <i
+              class="fa-solid fa-sort-down fa-sm items-center"
+              style="color: #000"></i> </span> </p>
+        
+            </div>
+
+
+
+            <div class="  bg-white  rounded-lg m-4 border border-gray-300 w-145">
+              
+              <div class="  items-center flex text-center  justify-center  bg-gray-200   mb-2 "></div>
+
+
+              <div class="flex flex-row gap-2 pl-4">
+                <img class="w-16 h-16" src="public/assets/google.jpg">
+                <div class="flex flex-col">
+                  <h3 class="font-bold text-lg font">Google Cloud Security</h3>
+                  <p class="font-light text-gray-700 text-xs">51,841
+                    Followers</p>
+                  <p class="font-light text-gray-700 text-xs">Promoted</p>
+
+                </div>
+
+              </div>
+
+              <div class="text-sm px-4 mt-2">
+                <p>Mastering AI means securing it at speed. Learn how to balance innovation gains with essential governance and risk management.
+
+Luke McNamara from Google Threat Intelligence Group shares the strategic methods to securing enterprise AI deployments and maximising efficiency.
+</p>
+
+              </div>
+
+              <div class="">
+                <img src="public/assets/google-post.jpg" alt="google-post" class="mt-2 h-100 w-145">
+              </div>
+              <h1 class="flex text-sm pt-1.5" ><span><img src="public/assets/like.svg" alt="" class="mt-1 ml-2"></span>118</h1>
+
+                    <hr class="border-gray-400  shadow-2xs mx-3  mt-2 ">
+
+<div class="flex justify-around p-2">
+<a href=""><h1 class="font-semibold text-sm text-gray-700" ><span><i class="fa-regular fa-thumbs-up fa-flip-horizontal pl-1.5" style="color: #6d6f74;"></i></span>Like</h1></a>
+<a href=""><h1 class="font-semibold text-sm text-gray-700" ><span><i class="fa-regular fa-message pr-1.5" style="color: #6d6f74;" ></i></span>Comment</h1></a>
+<a href=""><h1 class="font-semibold text-sm text-gray-700" ><span><i class="fa-solid fa-retweet pr-1.5" style="color: #6d6f74;" ></i></span>Repost</h1></a>
+<a href=""><h1 class="font-semibold text-sm text-gray-700" ><span><i class="fa-solid fa-paper-plane pr-1.5" style="color: #6d6f74;" ></i></span>Send</h1>
+</a>
+</div>
+
+
+
+
+
+
+            </div>
+</div>
+
+
+
+
+<!-- right section -->
+
+
+ <div class=" flex flex-col ">
+           
+         <!-- Top-section -->
+          <div class="text-sm not border flex flex-col border-gray-300 w-70 rounded-lg px-4 py-2 gap-2  bg-white  ">
+                <h1 class="font-medium text-xl flex items-center gap-24">
+                  LinkedIn News <span><svg width="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-info-square-fill"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path> </g></svg></span>
+                </h1>
+
+                <h1 class="text-gray-500 font-medium">
+                  Top stories
+                </h1>
+                 
+                <div class="hover:bg-gray-200  ">
+                <a href="#"><p class="font-semibold">Top newsletters of the week</p>
+                <p class="text-gray-500 text-xs pt-2">2d ago • 4,418 readers</p></a>
+                </div>  
+                 
+                
+               <div class="hover:bg-gray-200  ">
+                <a href="#"><p class="font-semibold">Silver prices hit ₹2 lakh</p>
+                <p class="text-gray-500 text-xs pt-2 ">1d ago • 3,127 readers</p></a>
+                
+                </div>
+                
+                <div class="hover:bg-gray-200  ">
+                  <a href="#"><p class="font-semibold">Big Tech bets big on India</p>
+                <p class="text-gray-500 text-xs pt-2 ">2d ago • 2,500 readers</p></a>
+                
+                </div>
+
+                <div class="hover:bg-gray-200  ">
+                  <a href="#">  <p class="font-semibold">AP bus accident leaves 9 dead</p>
+                <p class="text-gray-500 text-xs pt-2 ">1d ago • 1,633 readers</p></a>
+              
+                </div>
+
+                <div class="hover:bg-gray-200  ">
+                  <a href="#">  <p class="font-semibold">Thailand set for early elections
+</p>
+                <p class="text-gray-500 text-xs pt-2 ">1d ago • 992 readers</p></a>
+              
+                </div>
+
+              
+                <div class="flex   text-center gap-1">
+              <a class="font-medium text-sm flex  text-gray-600">Show more <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="ml-1 mt-0.5" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.632l8.968-4.748l-.936-1.768L12 13.368L3.968 9.116l-.936 1.768z"></path></svg>
+          </a>  </div>
+              
+              <div class=" mt-3" >
+                <p class="text-gray-600 font-semibold text-md"> Today's puzzle games</p>
+              </div>
+
+
+              <div class="flex">
+                <img src="public/assets/zip.svg" alt="zip-img"  >
+                <div class="pl-3">
+                <p class="font-semibold">Zip <span class="font-normal"> #271</span> </p>
+                <p class="text-xs text-gray-500">32 connections played</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="ml-12 mt-2.5 text-gray-700"><path fill="currentColor" d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"></path></svg>
+              </div>
+
+
+                <div class="flex">
+                <img src="public/assets/mini.svg" alt="zip-img"  >
+                <div class="pl-3">
+                <p class="font-semibold">Mini Sudoku <span class="font-normal"> #124</span> </p>
+                <p class="text-xs   text-gray-500 ">The classic game, made mini</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="ml-5 mt-2.5 text-gray-700"><path fill="currentColor" d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"></path></svg>
+              </div>
+
+
+
+                <div class="flex">
+                
+                <img src="public/assets/tango.svg" alt="zip-img"  >
+                <div class="pl-3">
+                <p class="font-semibold">Tango <span class="font-normal"> #432</span> </p>
+                <p class="text-xs   text-gray-500 ">Harmonize the grid</p>
+              
+</div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="ml-17 mt-2.5 text-gray-700"><path fill="currentColor" d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"></path></svg>
+              </div>
+
+
+
+
+                <div class="flex">
+                <img src="public/assets/zip.svg" alt="zip-img"  >
+                <div class="pl-3">
+                <p class="font-semibold">Queens <span class="font-normal"> #592</span> </p>
+                <p class="text-xs   text-gray-500 ">Crown each region</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="ml-18 mt-2.5 text-gray-700"><path fill="currentColor" d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"></path></svg>
+              </div>
+
+                  <div class="flex text-center gap-1">
+              <a class="font-medium text-sm  text-gray-600 flex">Show more <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="ml-1 mt-0.5" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.632l8.968-4.748l-.936-1.768L12 13.368L3.968 9.116l-.936 1.768z"></path></svg>
+          </a>  </div>
+          </div>
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+  
+  </div>
+  
+</section>
+  </body>
+</html>
