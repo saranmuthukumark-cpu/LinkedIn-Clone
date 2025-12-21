@@ -22,17 +22,17 @@
     <!-- nav section -->
 
     <nav
-      class="flex justify-between items-center pl-60 pr-73.5 p-1 bg-white border-b border-gray-300 cursor-pointer fixed  top-0 z-10">
+      class="flex justify-between  p-1 lg:px-50  w-screen lg:w-screen bg-white border-b border-gray-300 cursor-pointer fixed  top-0 z-10 gap-10">
       <div class="flex items-center">
         <a href="#"
           ><img
             src="public/assets/linkedin-svgrepo-com.svg"
-            class="h-8.5 w-8.5"
+            class="h-8.5  w-8.5"
             alt="linked in logo"
         /></a>
 
         <div
-          class="border border-gray-400 mr-4 ml-2.5 p-1 rounded-2xl flex items-center pr-20">
+          class="border border-gray-400 mr-4 ml-2.5 p-1 rounded-2xl flex items-center pr-20 max-sm:hidden ">
           <a href="">
             <i
               class="fa-solid fa-magnifying-glass fa-sm pr-2 mx-2"
@@ -40,7 +40,7 @@
           ><input
             type="search"
             placeholder="Search"
-            class="text-black text-sm outline-0 justify-center" />
+            class="text-black text-sm outline-0 justify-center " />
         </div>
       </div>
 
@@ -48,7 +48,7 @@
 
       <nav class="">
         <div class="flex space-x-8 items-center">
-          <div class="flex flex-col items-center ">
+          <div class="flex flex-col items-center max-sm:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -63,7 +63,7 @@
           </svg>
           <p class="text-xs text-black text-center">Home</p>
           </div>
-          <div class="flex flex-col items-center ">
+          <div class="flex flex-col items-center max-sm:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -79,7 +79,7 @@
           <p  class="text-xs " >My Network</p>  
           </div>
 
-          <div class="flex flex-col items-center ">
+          <div class="flex flex-col items-center max-sm:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -95,7 +95,7 @@
             <p class="text-xs" >Jobs</p>
           </div>
 
-          <div class="flex flex-col items-center " >
+          <div class="flex flex-col items-center  " >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -111,7 +111,7 @@
             <p  class="text-xs" >Messaging</p>
           </div>
 
-          <div class="flex flex-col items-center " >
+          <div class="flex flex-col items-center max-sm:hidden" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -127,7 +127,7 @@
             <p class="text-xs" >Notifications</p>
           </div>
 
-          <div class="flex flex-col items-center border-r border-gray-400 pr-2 ">
+          <div class="flex flex-col items-center lg:border-r border-gray-400 pr-2 ">
             <img
               src="public/assets/saran img.jpg"
               alt="saran profile pic"
@@ -139,7 +139,7 @@
           </div>
   
           
-            <div class="flex flex-col items-center ">
+            <div class="flex flex-col items-center max-sm:hidden ">
             
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@
               style="color: #9196a1"></i></p>
             </div>
 
-            <div class="flex flex-col items-center ">
+            <div class="flex flex-col items-center max-sm:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -193,10 +193,10 @@
 
           <!-- left section -->
 
-<section class="pt-10">
-<div class="flex  pl-60 pt-6 rounded-t-lg ">
+<section class="pt-10  ">
+<div class="flex  lg:pl-50  pt-5  lg:pt-6 rounded-t-lg max-sm:flex-wrap  ">
 
-<div class=" rounded-lg flex flex-col w-60 z-1 ">
+<div class=" rounded-lg flex flex-col max-sm:mx-auto lg:w-60 z-1  ">
   <div class="flex flex-col  ">
     <img src="public/assets/saran-bg-banner.jpg" class="h-15 rounded-t-lg" alt="banner-img">
     <div class="absolute mt-7 ml-4"><img src="public/assets/saran img.jpg" alt="saran logo" class="rounded-full h-18 border-2 border-gray-100"></div>
@@ -235,7 +235,7 @@
 </div>
 
 
-<div class=" mt-2 pl-4 py-4 bg-white border  border-gray-300 rounded-lg w-60 ">
+<div class=" mt-2 pl-4  py-4 max-sm:my-3 bg-white border  border-gray-300 rounded-lg w-60 ">
 
 <h1 class="text-xs font-medium pb-4 hover:underline "><i class="fa-solid fa-bookmark fa-md pr-5"></i> Saved items </h1>
 <h1 class="text-xs font-medium pb-4 hover:underline "><i class="fa-solid fa-people-group fa-md pr-5"></i>Groups</h1>
@@ -254,16 +254,16 @@
 
 
 <div class="">
-  <div class="mx-4 bg-white rounded-lg border border-gray-300">
+  <div class="mx-4 bg-white rounded-lg border border-gray-300 max-sm:w-screen">
 
 <div class="flex py-3 px-4 ">
   <img src="public/assets/saran img.jpg" alt="saran img" class="h-12 w-12 rounded-full">
 
-<button class="flex text-gray-700 pr-95 p-3 ml-2 text-center border border-gray-400 rounded-4xl"> <span class="font-semibold text-md">Start a post</span>  </button>
+<button class="flex text-gray-700 pr-40 lg:pr-95 p-3 ml-2 text-center border border-gray-400 rounded-4xl "> <span class="font-semibold text-md ">Start a post</span>  </button>
 
 </div>
 
-<div class="flex gap-20 py-3">
+<div class="flex gap-7 lg:gap-20 py-3 max-sm:w-screen">
 <a href="#" class="flex "><svg height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#5f9b41" stroke="#5f9b41"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#5f9b41;" d="M460.8,68.452H51.2c-28.16,0-51.2,23.04-51.2,51.2v272.696c0,28.16,23.04,51.2,51.2,51.2h409.6 c28.16,0,51.2-23.04,51.2-51.2V119.652C512,91.492,488.96,68.452,460.8,68.452z M188.44,359.98V151.108l195.624,104.44 L188.44,359.98z"></path> <polygon style="fill:#FFFFFF;" points="188.44,359.98 384.056,255.548 188.44,151.108 "></polygon> </g></svg> <span class="pl-3 font-medium text-gray-700 text-sm">Video</span></a>
 
 
@@ -277,7 +277,7 @@
 
 
 
-<div class="flex items-center space-x-2 my-2 ">
+<div class="flex items-center space-x-2 my-2 max-sm:w-screen">
         <hr class="border-gray-400  shadow-2xs w-[80%] ml-4">
         <p class="text-xs text-gray-500 text-center flex items-center gap-2">Sort by:  <span class="font-medium text-gray-800 text-center flex items-center">Top 
           <span class=" text-[18px]  ml-0.5"></span> <i
@@ -288,12 +288,12 @@
 
 
 
-            <div class="  bg-white  rounded-lg m-4 border border-gray-300 w-145">
+            <div class="  bg-white  rounded-lg m-4 border border-gray-300 lg:w-145">
               
               <div class="  items-center flex text-center  justify-center  bg-gray-200   mb-2 "></div>
 
 
-              <div class="flex flex-row gap-2 pl-4">
+              <div class="flex flex-row gap-2 pl-4 max-sm:w-screen">
                 <img class="w-16 h-16" src="public/assets/google.jpg">
                 <div class="flex flex-col">
                   <h3 class="font-bold text-lg font">Google Cloud Security</h3>
@@ -342,10 +342,10 @@ Luke McNamara from Google Threat Intelligence Group shares the strategic methods
 <!-- right section -->
 
 
- <div class=" flex flex-col ">
+ <div class=" flex flex-col max-sm:mx-auto max-sm:mb-5 ">
            
          <!-- Top-section -->
-          <div class="text-sm not border flex flex-col border-gray-300 w-70 rounded-lg px-4 py-2 gap-2  bg-white  ">
+          <div class="text-sm not border flex flex-col border-gray-300  lg:w-70 rounded-lg px-4 py-2 gap-2  bg-white  ">
                 <h1 class="font-medium text-xl flex items-center gap-24">
                   LinkedIn News <span><svg width="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-info-square-fill"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path> </g></svg></span>
                 </h1>
@@ -473,5 +473,11 @@ Luke McNamara from Google Threat Intelligence Group shares the strategic methods
   </div>
   
 </section>
+
+
+<footer class="bg-white p-3 text-center flex justify-center gap-5 w-screen">
+  <p>For learning purpose only</p>
+  <p> <a href="https://github.com/saranmuthukumark-cpu"><i class="fa-brands fa-github fa-lg"></i></a> </p>
+</footer>
   </body>
 </html>
